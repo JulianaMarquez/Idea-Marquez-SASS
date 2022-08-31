@@ -1,0 +1,36 @@
+main{
+    background-image:linear-gradient(to bottom,rgb(215, 109, 197) 0%, rgba(255,158,232,1) 100%);
+    section{
+        padding: 30px;
+        img{
+            border: 20px solid map-get($colores , "negro" );
+        }
+    }
+    section{
+        h1{
+            color: map-get($colores , "blanco" );
+            background-color: map-get($colores , "negro" );
+            padding: 20px;
+            font-weight: bold;
+            text-align: center;
+            border: dashed 2px rgba(146,87,187,0.8536585365853658);
+
+        }
+        p{
+            font-family: $font;
+            font-weight: 400;
+            line-height: 2.3;
+            text-align: justify;
+            padding-bottom: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: map-get($colores , "blanco" );
+            background-color: map-get($colores , "negro" );
+            border: 20px;
+            border-radius: 20px;
+            padding: 10px;
+            
+        }
+    }
+}

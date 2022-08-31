@@ -1,0 +1,22 @@
+header{
+    background-color: $color-principal;
+    nav{
+        ul{
+            text-align: center;
+            font-size: medium;
+            font-family: $font;
+            li{
+                display: inline-block;
+                margin: 5px;
+                padding: 20px;
+                a{
+                    text-decoration: none;
+                    color: map-get($colores , "negro" );
+                    &:hover{
+                        color: map-get($colores , "blanco" );
+                    }
+                }
+            }
+        }
+    }
+}
